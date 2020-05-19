@@ -61,10 +61,7 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   
   Rails.application.configure do
-  .
-  .
-  .
   # Cloud9 への接続を許可する
   config.hosts.clear
-end
+  end
 end
